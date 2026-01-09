@@ -36,7 +36,8 @@ return {
         ["<C-b>"] = cmp.mapping.scroll_docs(-4),
         ["<C-f>"] = cmp.mapping.scroll_docs(4),
         ["<C-Space>"] = cmp.mapping.complete(), -- show completion suggestions (terminal)
-        ["<D-i>"] = cmp.mapping.complete(), -- show completion suggestions (CMD+I for GUI)
+        ["<D-.>"] = cmp.mapping.complete(), -- show completion suggestions (CMD+. for GUI)
+        ["<C-.>"] = cmp.mapping.complete(), -- show completion suggestions (Ctrl+. for terminal)
         ["<C-e>"] = cmp.mapping.abort(), -- close completion window
         ["<CR>"] = cmp.mapping.confirm({ select = false }),
         ["<Tab>"] = cmp.mapping(function(fallback)
