@@ -88,7 +88,8 @@ nvim
 
 ### Editing
 - `Ctrl+/` - Toggle comment
-- `Ctrl+Space` - Trigger autocomplete
+- `Ctrl+.` - Trigger autocomplete (terminal)
+- `Cmd+.` - Trigger autocomplete (GUI Neovim)
 - `u` - Undo
 - `Ctrl+R` - Redo
 
