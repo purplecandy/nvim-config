@@ -1,0 +1,19 @@
+# Neovim plugin manager lock file
+lazy-lock.json
+
+# Session files
+*.vim
+*.session
+
+# Undo history
+*.un~
+
+# Swap files
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# macOS
+.DS_Store
