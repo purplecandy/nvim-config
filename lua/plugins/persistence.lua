@@ -3,6 +3,10 @@ return {
   event = "VimEnter",
   opts = {
     options = { "buffers", "curdir", "tabpages", "winsize" },
+    pre_save = function()
+      -- Close NvimTree before saving session
+      vim.cmd("silent! NvimTreeClose")
+    end,
   },
   config = function(_, opts)
     local persistence = require("persistence")
